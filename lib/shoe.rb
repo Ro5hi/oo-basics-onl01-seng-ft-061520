@@ -6,7 +6,7 @@ attr_reader :brand
       @brand = brand
     end 
 
-def brand 
+def brand = (brand)
   @brand 
 end 
 
