@@ -9,7 +9,6 @@ attr_reader :brand
 def brand = (brand)
   @brand = brand 
 end 
-end 
 
 
 #  def cobble
