@@ -3,9 +3,11 @@ class Shoe
  attr_reader :brand
  
   def initialize(brand)
-    @brand = brand
-end 
-end 
+      @brand = brand
+    if !(BRANDS.include?(@brand))
+      BRANDS << @brand
+    end
+  end
 
 # def cobble
 #     puts "Your shoe is as good as new!"
